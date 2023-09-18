@@ -1,0 +1,52 @@
+  h1{
+    color: aliceblue;
+    }
+   img {
+    height: 500px;
+   }
+   .container{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+   }
+   .three{
+    grid-column: span 1;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+   }
+   .six{
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+  }
+   .five{
+     grid-column: span 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 0px 80px 0px 80px;
+   }
+   p{
+    font-size: 24px;
+   }
+  @media (min-width:600px) {
+    body{
+      background-image: url(imgs/bg.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+     }
+  }
+   @media (max-width: 600px) {
+    body{
+      background-image: url(imgs/mobilebg1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+     }
+   }
+   .abt{
+    position: fixed;
+   }
